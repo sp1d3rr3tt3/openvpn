@@ -1,0 +1,23 @@
+Windows Terminal & VS Code integration notes
+
+What I did:
+- Installed PowerShell helpers to: C:\Users\sp1d3\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
+- Verified integration files under contrib/shell-integration/
+
+What I could not auto-change:
+- Windows Terminal: no settings.json detected in typical LocalState paths, so I did NOT modify your Windows Terminal settings.json.
+- VS Code: either settings.json was absent or could not be parsed safely (comments). I did NOT modify your VS Code settings.json.
+
+Manual steps you can run to add the profiles yourself:
+
+Windows Terminal (open Settings -> Open JSON file) and add the profiles from:
+- contrib/shell-integration/windows-terminal-profile.json
+
+VS Code (open Settings JSON) and merge the object from:
+- contrib/shell-integration/vscode-terminal-snippet.json
+
+Files created / backed up by the script (if present):
+- backups: *.bak next to your original settings files (if they existed)
+- PowerShell profile backup: C:\Users\sp1d3\Documents\PowerShell\Microsoft.PowerShell_profile.ps1.bak (if existed)
+
+If you want I can try again to merge into a specific settings.json path you confirm, or walk you through importing them interactively.

@@ -1,0 +1,12 @@
+{
+  "MSYS2 UCRT64": {
+    "path": "C:\\msys64\\msys2_shell.cmd",
+    "args": ["-ucrt64","-here"],
+    "icon": "terminal-bash"
+  },
+  "MSYS2 MINGW64": {
+    "path": "C:\\msys64\\msys2_shell.cmd",
+    "args": ["-mingw64","-here"],
+    "icon": "terminal-bash"
+  }
+}

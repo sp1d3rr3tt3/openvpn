@@ -1,0 +1,16 @@
+[
+  {
+    "guid": "{b1a7f5e6-0000-4c3a-9d1a-111111111111}",
+    "name": "MSYS2 UCRT64",
+    "commandline": "C:\\msys64\\msys2_shell.cmd -ucrt64 -here",
+    "icon": "C:\\msys64\\usr\\share\\icons\\msys2.png",
+    "startingDirectory": "%USERPROFILE%"
+  },
+  {
+    "guid": "{b1a7f5e6-0000-4c3a-9d1a-222222222222}",
+    "name": "MSYS2 MINGW64",
+    "commandline": "C:\\msys64\\msys2_shell.cmd -mingw64 -here",
+    "icon": "C:\\msys64\\usr\\share\\icons\\msys2.png",
+    "startingDirectory": "%USERPROFILE%"
+  }
+]
